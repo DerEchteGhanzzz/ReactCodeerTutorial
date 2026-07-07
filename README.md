@@ -1,4 +1,8 @@
-Voordat je van start kan gaan, moet er eerst het volgende gebeuren:
+Voordat je van start kan gaan, moeten eerst de volgende dingen worden geïnstalleerd:
+
+Node.js om code te kunnen draaien,
+Git om projecten te kunnen beheren,
+VSCode om code beter te kunnen lezen.
 
 # Installeer nvm, Node.js en npm.
 
