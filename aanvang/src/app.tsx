@@ -2,11 +2,31 @@
  * Begin hier met coderen
  */
 
+// druk 'ctrl + shift + `' in om een terminal te openen
+// zorg ervoor dat je in de goede folder zit (aanvang)
+// je ziet de huidige folder aan de onderkant van je terminal:
+// Bij mij is dat: 'C:\CodeerTutorial\aanvang>'
+// als je bijvoorbeeld C:\CodeerTutorial>, ziet voer dan `cd ./aanvang` uit.
+// dit zet je in de goede folder.
+
+// voer `npm run start` uit. Dit draait het programma.
+
 // laat x een getal zijn met waarde 5
 let x: number = 5;
-
 // x is een variabele, dus je kan hem ook een andere waarde geven
 x = 7;
+
+// laat b een Boolean zijn met waarde false
+let b: boolean = false;
+
+// laat a een string zijn met waarde "Hallo"
+let a: string = "Hallo";
+
+// Grr! x is al een number, maar nu is x een string. Dat mag niet!
+x = "5";
+
+console.log("Bug gefixt!");
+
 // je kan x ook zijn eigen waarde meegeven (wat is nu de waarde van x?)
 x = x + 1;
 
@@ -14,15 +34,13 @@ x = x + 1;
 let dubbelX: number = x + x;
 
 let y: number = 3;
-let dubbelY: number = y + y;
+let som: number = y + x;
 
 // console.log kan een variabele naar de console printen
 console.log(
   "x is " + x.toString() + "; het dubbele van x is: " + dubbelX.toString(),
 );
-console.log(
-  "y is " + y.toString() + "; het dubbele van y is: " + dubbelY.toString(),
-);
+console.log("y is " + y.toString() + "; het x + y = " + som.toString());
 console.log("-----------------------------------------");
 
 // Oke, mooi is dat, maar als ik voor elk getal het dubbele wil uitrekenen,
