@@ -85,11 +85,13 @@ VSCode kan eigenlijk niet meer dan de kladblok app, met VSCode kan je wel makkel
 
 Start vscode en ga aan de linkerkant van het scherm naar Extensions (die met de 3 rechte en 1 schuine blokjes)
 
-zoek op EsLint en klik op installeer.
+zoek op EsLint (van Microsoft) en klik op installeer.
 
 EsLint vertelt jou als je code schrijft wanneer je het fout doet en hoe je het beter kan doen.
 
-# Git repository clonen
+Installeer ook Prettier (van Prettier)
+
+# Git repository clonen (kan ook bij de tutorial)
 
 Oke, laatste stap.
 Ga naar een locatie in je filesysteem waar je ons nieuwe project wil neerzetten.
