@@ -138,17 +138,6 @@ console.log("-----------------------------------------");
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 // Bijvoorbeeld in een lijst of een array.
 
 let fibbonaccis: number[] = [1, 1, 2, 3, 5, 8, 13];
