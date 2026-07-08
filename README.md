@@ -1,12 +1,12 @@
 Voordat je van start kan gaan, moeten eerst de volgende dingen worden geïnstalleerd:
 
-Node.js om code te kunnen draaien,
+Node.js omdat we in Javascript gaan coderen,
 Git om projecten te kunnen beheren,
 VSCode om code beter te kunnen lezen.
 
 # Installeer nvm, Node.js en npm.
 
-Node is de interpreter voor Javascript. De programmeertaal waarmee we gaan coderen.
+Node is de interpreter voor Javascript (zorgt ervoor dat de computer Javascript begrijpt). De programmeertaal waarmee we gaan coderen.
 npm is de Node.js Package Manager. Deze kan makkelijk libraries installeren van het internet (zoals tractie, en onze bff-api).
 nvm is de Node Version Manager. Deze doet het versiebeheer van Node en npm. nvm is nodig om de andere twee te installeren.
 
@@ -14,17 +14,25 @@ nvm is de Node Version Manager. Deze doet het versiebeheer van Node en npm. nvm 
 
 ### Windows
 
-ga naar: https://github.com/coreybutler/nvm-windows/releases
-Scroll naar beneden en download: nvm-setup.exe
-Voer nvm-setup.exe uit (vraag van te voren admin rechten)
+ga naar: `https://github.com/coreybutler/nvm-windows/releases`
+Scroll naar beneden en download: `nvm-setup.exe`
+Voer `nvm-setup.exe` uit (vraag van te voren admin rechten)
 
 ### Mac
 
-open de terminal
-plak: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v1.2.2/install.sh | bash
-dit downloadt een installatie script voor nvm versie 1.2.2 en voert het uit.
+Mac is iets lastiger. Die hebben een package manager nodig genaamd Brew.
 
-voer daarna het commando `nvm -v` uit. Dit zou een versienummer moeten printen. Bijv: `1.2.2`. Als dit gebeurt, is nvm geïnstalleerd.
+voer het volgende uit in de terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+(van https://brew.sh/)
+
+Volg de stappen die brew daarna aanduidt om brew ook aan je PATH toe te voegen.
+
+Als je `brew help` typt, krijg je nu een mooie uitleg over hoe je brew kan gebruiken.
+
+Voer `brew install nvm` uit.
+Zet het stuk over `export` in de instructies in dezelfde .bash_shell file als bij brew.
+
+voer daarna het commando `nvm -v` uit. Dit zou een versienummer moeten printen. Bijv: `0.39.5`. Als dit gebeurt, is nvm geïnstalleerd.
 
 ## Node.js Package Manager (npm) en Node.js
 
@@ -48,18 +56,11 @@ Je kan dan zo'n repository (folder dus) downloaden, veranderingen aanmaken, en v
 
 ### Windows
 
-ga naar: https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.2/Git-2.55.0.2-64-bit.exe
+ga naar: `https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.2/Git-2.55.0.2-64-bit.exe`
 
 ### Mac
 
-Mac is iets lastiger. Die hebben een package manager nodig genaamd brew.
-
-voer het volgende uit in de terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-(van https://brew.sh/)
-
-dit installeert brew.
-
-Vervolgens: voer het commando `brew install git` uit.
+Voer het commando `brew install git` uit.
 
 ## Check of het is gelukt
 
@@ -76,7 +77,9 @@ Daarom zijn er nu: code editores. Die maken code schrijven aanzienlijk makkelijk
 
 VSCode is zo'n code editor.
 
-ga naar: https://code.visualstudio.com/download?_exp_download=fb315fc982
+### Windows/Mac
+
+ga naar: `https://code.visualstudio.com/download?_exp_download=fb315fc982`
 en klik op je besturingssysteem om de desbetreffende installer te installeren.
 
 ## Installeer extensions
@@ -85,11 +88,11 @@ VSCode kan eigenlijk niet meer dan de kladblok app, met VSCode kan je wel makkel
 
 Start vscode en ga aan de linkerkant van het scherm naar Extensions (die met de 3 rechte en 1 schuine blokjes)
 
-zoek op EsLint (van Microsoft) en klik op installeer.
+zoek op `EsLint` (van Microsoft) en klik op installeer.
 
 EsLint vertelt jou als je code schrijft wanneer je het fout doet en hoe je het beter kan doen.
 
-Installeer ook Prettier (van Prettier)
+Installeer ook `Prettier` (van Prettier)
 
 # Git repository clonen (kan ook bij de tutorial)
 
